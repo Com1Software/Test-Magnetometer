@@ -1,4 +1,7 @@
 # Test-Magnetometer
+
+[Build your own Raspberry Pi Compass (HMC5883L)](https://tutorials-raspberrypi.com/build-your-own-raspberry-pi-compass-hmc5883l/)
+
 [GY-273 HMC5883L  vs GY-271 QMC5883L](https://picaxeforum.co.uk/threads/digital-compass-qmc5883l-vs-hmc5883l-aka-gy-271-infos-more-questions.30306/)
 
 GY-273 HMC5883L 3V-5V Triple Axis Compass Magnetometer Sensor Module
