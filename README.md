@@ -1,6 +1,9 @@
 # Test-Magnetometer
 
 
+[python example](https://www.electronicwings.com/raspberry-pi/triple-axis-magnetometer-hmc5883l-interfacing-with-raspberry-pi)
+[golang example](https://github.com/deepakkamesh/embd/blob/0d0e32744432/sensor/hmc5883l/hmc5883l.go)
+
 
 [Avislab HMC5883L Magnetometer](https://blog-avislab-com.translate.goog/hmc5883l/?_x_tr_sl=uk&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc)
 
@@ -16,8 +19,6 @@ GY-273 HMC5883L 3V-5V Triple Axis Compass Magnetometer Sensor Module
 
 GY-271 QMC5883L 3-5V IIC Triple Axis Compass Magnetic Sensor Module Electronic Compass 
 [Amazon $6.59](https://www.amazon.com/dp/B008V9S64E?psc=1&ref=ppx_yo2ov_dt_b_product_details)
-
-[electronicwings](https://www.electronicwings.com/raspberry-pi/triple-axis-magnetometer-hmc5883l-interfacing-with-raspberry-pi)
 
 [RigacciOrg/py-qmc5883l](https://github.com/RigacciOrg/py-qmc5883l)
 
