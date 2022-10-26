@@ -1,6 +1,9 @@
 # Test-Magnetometer
 
 
+
+[Avislab HMC5883L Magnetometer](https://blog-avislab-com.translate.goog/hmc5883l/?_x_tr_sl=uk&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc)
+
 [deepakkamesh/embd/sensor/hmc5883l](https://pkg.go.dev/github.com/deepakkamesh/embd/sensor/hmc5883l)
 
 [Build your own Raspberry Pi Compass (HMC5883L)](https://tutorials-raspberrypi.com/build-your-own-raspberry-pi-compass-hmc5883l/)
