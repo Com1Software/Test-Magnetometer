@@ -4,6 +4,7 @@
 [python example](https://www.electronicwings.com/raspberry-pi/triple-axis-magnetometer-hmc5883l-interfacing-with-raspberry-pi)
 [golang example](https://github.com/deepakkamesh/embd/blob/0d0e32744432/sensor/hmc5883l/hmc5883l.go)
 
+[go-daq/smbus](https://pkg.go.dev/github.com/go-daq/smbus)
 
 [Avislab HMC5883L Magnetometer](https://blog-avislab-com.translate.goog/hmc5883l/?_x_tr_sl=uk&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc)
 
