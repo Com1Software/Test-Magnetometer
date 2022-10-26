@@ -1,5 +1,8 @@
 # Test-Magnetometer
 
+
+[deepakkamesh/embd/sensor/hmc5883l](https://pkg.go.dev/github.com/deepakkamesh/embd/sensor/hmc5883l)
+
 [Build your own Raspberry Pi Compass (HMC5883L)](https://tutorials-raspberrypi.com/build-your-own-raspberry-pi-compass-hmc5883l/)
 
 [GY-273 HMC5883L  vs GY-271 QMC5883L](https://picaxeforum.co.uk/threads/digital-compass-qmc5883l-vs-hmc5883l-aka-gy-271-infos-more-questions.30306/)
