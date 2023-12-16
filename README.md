@@ -1,5 +1,8 @@
 # Test-Magnetometer
 
+sudo i2cdetect -y 1
+
+https://tutorials-raspberrypi.com/measuring-rotation-and-acceleration-raspberry-pi/
 
 [python example](https://www.electronicwings.com/raspberry-pi/triple-axis-magnetometer-hmc5883l-interfacing-with-raspberry-pi)
 [golang example](https://github.com/deepakkamesh/embd/blob/0d0e32744432/sensor/hmc5883l/hmc5883l.go)
