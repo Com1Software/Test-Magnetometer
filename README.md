@@ -2,6 +2,8 @@
 
 sudo i2cdetect -y 1
 
+https://periph.io/
+
 [d2r2 repos](https://github.com/d2r2?tab=repositories)
 
 https://github.com/d2r2/go-i2c
