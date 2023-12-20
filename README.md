@@ -2,6 +2,8 @@
 
 sudo i2cdetect -y 1
 
+[d2r2 repos](https://github.com/d2r2?tab=repositories)
+
 https://github.com/d2r2/go-i2c
 
 https://www.electronicwings.com/raspberry-pi/triple-axis-magnetometer-hmc5883l-interfacing-with-raspberry-pi
