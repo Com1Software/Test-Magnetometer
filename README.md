@@ -8,6 +8,10 @@ https://thepythoncode.com/assistant/code-converter/go/
 
 https://www.codeconvert.ai/python-to-golang-converter
 
+https://products.codeporting.app/convert/ai/python-to-golang
+
+https://algodaily.com/convert/python/go
+
 https://poweruser.blog/embedding-python-in-go-338c0399f3d5
 
 https://pkg.go.dev/golang.org/x/exp/io/i2c
