@@ -4,6 +4,10 @@ sudo i2cdetect -y 1
 
 https://github.com/d2r2/go-i2c
 
+https://thepythoncode.com/assistant/code-converter/go/
+
+https://www.codeconvert.ai/python-to-golang-converter
+
 https://poweruser.blog/embedding-python-in-go-338c0399f3d5
 
 https://pkg.go.dev/golang.org/x/exp/io/i2c
