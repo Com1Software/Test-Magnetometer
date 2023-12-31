@@ -54,7 +54,7 @@ func main() {
             heading += 2 * pi
         }
         headingAngle := int(heading * 180 / pi)
-        fmt.Printf("Heading Angle = %d°\n", headingAngle)
+        fmt.Printf("Heading Angle = %d - x=%d y=%d z=%d°\n", headingAngle,x,y,z)
         time.Sleep(1 * time.Second)
     }
 }
