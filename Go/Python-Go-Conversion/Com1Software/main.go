@@ -5,7 +5,7 @@ import (
     "math"
     "time"
 
-    "github.com/Com1Software/go-i2c"
+    "github.com/googolgl/go-i2c"
 )
 
 const (
@@ -19,7 +19,7 @@ const (
     pi           = 3.14159265359
 )
 
-var bus *i2c.I2C
+var bus *i2c.Options
 
 func MagnetometerInit() {
     bus.WriteRegU8(RegisterA, 0x70)
@@ -38,7 +38,7 @@ func readRawData(addr byte) int {
 }
 
 func main() {
-    bus, _ = i2c.NewI2C(0x1e, 1)
+    bus, _ = i2c.New(0x1e, "/dev/i2c-1")
     defer bus.Close()
     MagnetometerInit()
     fmt.Println("Reading Heading Angle")
