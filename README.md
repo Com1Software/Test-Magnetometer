@@ -4,6 +4,8 @@ sudo i2cdetect -y 1
 
 https://github.com/d2r2/go-i2c
 
+https://www.waveshare.com/wiki/BMM150_3-Axis_Magnetometer_Sensor
+
 https://thepythoncode.com/assistant/code-converter/go/
 
 https://www.codeconvert.ai/python-to-golang-converter
