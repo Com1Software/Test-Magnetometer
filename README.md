@@ -2,6 +2,10 @@
 
 sudo i2cdetect -y 1
 
+https://github.com/boschsensortec/BMM150_SensorAPI
+
+https://github.com/phirippu/stm32-bmm150
+
 https://github.com/d2r2/go-i2c
 
 https://www.waveshare.com/wiki/BMM150_3-Axis_Magnetometer_Sensor
