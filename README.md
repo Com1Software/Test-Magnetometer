@@ -2,6 +2,8 @@
 
 sudo i2cdetect -y 1
 
+https://github.com/Seeed-Studio/Grove_3_Axis_Compass_V2.0_BMM150
+
 https://github.com/boschsensortec/BMM150_SensorAPI
 
 https://github.com/phirippu/stm32-bmm150
