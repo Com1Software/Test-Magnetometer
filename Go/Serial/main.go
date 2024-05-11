@@ -1,9 +1,9 @@
 package main
 
 import (
+	"encoding/hex"
 	"fmt"
 	"log"
-	"strings"
 
 	"go.bug.st/serial"
 )
@@ -37,7 +37,6 @@ func main() {
 			po = true
 		}
 		if po {
-			line := ""
 			buff := make([]byte, 1)
 			for {
 				n, err := port.Read(buff)
@@ -48,13 +47,11 @@ func main() {
 					port.Close()
 					break
 				}
-				line = line + string(buff[:n])
-				if len(line) > 100 {
-					fmt.Println(line)
-					line = ""
-				}
-				if strings.Contains(string(buff[:n]), "\n") {
-					fmt.Println("Hit Return")
+				src := []byte(string(buff))
+				encodedStr := hex.EncodeToString(src)
+				fmt.Printf("%s ", encodedStr)
+				if encodedStr == "00" {
+					fmt.Println("")
 				}
 			}
 		}
