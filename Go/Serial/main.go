@@ -27,29 +27,35 @@ func main() {
 		DataBits: 8,
 		StopBits: serial.OneStopBit,
 	}
+	po := false
 	for x := 0; x < len(ports); x++ {
 		port, err := serial.Open(ports[x], mode)
 		if err != nil {
-			log.Fatal(err)
+			fmt.Println(err)
+			po = false
+		} else {
+			po = true
 		}
-		line := ""
-		buff := make([]byte, 1)
-		for {
-			n, err := port.Read(buff)
-			if err != nil {
-				log.Fatal(err)
-			}
-			if n == 0 {
-				port.Close()
-				break
-			}
-			line = line + string(buff[:n])
-			if len(line) > 100 {
-				fmt.Println(line)
-				line = ""
-			}
-			if strings.Contains(string(buff[:n]), "\n") {
-				fmt.Println("Hit Return")
+		if po {
+			line := ""
+			buff := make([]byte, 1)
+			for {
+				n, err := port.Read(buff)
+				if err != nil {
+					log.Fatal(err)
+				}
+				if n == 0 {
+					port.Close()
+					break
+				}
+				line = line + string(buff[:n])
+				if len(line) > 100 {
+					fmt.Println(line)
+					line = ""
+				}
+				if strings.Contains(string(buff[:n]), "\n") {
+					fmt.Println("Hit Return")
+				}
 			}
 		}
 	}
